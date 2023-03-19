@@ -1,7 +1,100 @@
-ACTION STEPS TAKEN
-1. In the <body>/<div class=content>, the <id="search..."> value was not entered, resulting in the link not working. I added the <id="search..."> value and problem was resolved.
+## User Story
 
-2. style.css/.benefits: I increased padding by 6px to make bottom of Lead Generation box align correctly with bottom of Social Media Marketing box.
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
 
-3. No header section. Top menu scrolled up with the <body>. I added a <header> section and moved <class="header"> coding to this section. I then set the position to fixed so that the menu options remained in view on the screen. Width did not extend all the way accross. I added width to this style.css section and set it to 100%. A top part of T
-     the <body> is slightly hidden behind the <header>.
+## Acceptance Criteria
+
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements - <head>, <header>, <body>, <div> - done
+     -- Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+     -- Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+     <article>, <aside>, <header>, <footer>, <main>, <mark>, <nav>,
+     <section>, <summary>, <time>, <figcaption>, <details>
+     (https://www.w3schools.com/html/html5_semantic_elements.asp)
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning - done
+    --  Structure looks good to me.
+WHEN I view the icon and image elements
+THEN I find accessible alt attributes
+     -- I did not see any alt attributes
+     -- I added alt attributes to each of these elements
+WHEN I view the heading attributes
+THEN they fall in sequential order
+     -- They are in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+     -- I find the element to be very concise
+     -- I do not find the element to be very descriptive.
+          -- I do not know who or what "Horiseon" is
+          -- seo stands for search engine optimization
+          -- In code, it had its own color but was not very clear
+          -- I contrasted the color slightly in .css
+
+### Technical Acceptance Criteria: 40%
+
+* Satisfies all of the preceding acceptance criteria plus the following code improvements:
+
+  * Application's links all function correctly.
+     -- In the <body>/<div class=content>, the <id="search..."> value was not
+     entered, resulting in the link not working. I added the
+     <id="search..."> value and problem was resolved.
+
+  * Application's CSS selectors and properties are consolidated and
+     organized to follow semantic structure.
+     -- Done
+
+  * Application's CSS file is properly commented.
+     -- Place comments between /* ... */
+     -- Done
+
+### Deployment: 32%
+
+* Application deployed at live URL.
+
+* Application loads with no errors.
+
+* Application GitHub URL submitted.
+
+* GitHub repository contains application code.
+
+### Application Quality: 15%
+
+* Application resembles mock-up provided in the Challenge instructions (at least 90%).
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality README file with description, screenshot, and link to deployed application.
+
+## Review
+
+You are required to submit the following for review:
+
+* The URL of the deployed application.
+
+* The URL of the GitHub repository, with a unique name and a README that describes the project.
+OTHER ACTION STEPS TAKEN
+
+2. style.css/.benefits: I increased padding by 6px to make bottom of
+     Lead Generation box align correctly with bottom of Social Media
+     Marketing box.
+
+3. No header section. Top menu scrolled up with the <body>. I added a
+     <header> section and moved <class="header"> coding to this section.
+     I then set the position to fixed so that the menu options remained
+     in view on the screen. Width did not extend all the way accross.
+     I added width to this style.css section and set it to 100%. A top
+     part of the <body> is slightly hidden behind the <header>.

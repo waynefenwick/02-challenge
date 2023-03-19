@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,16 +13,8 @@ body {
     width: 100%;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 .header div {
+/* Moved to top of header selectors */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,18 +22,31 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+a {
+/* <a> is for links. Links are in header section. Moved from body sectiopn to header section */
+    color: #ffffff;
+    text-decoration: none;
 }
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #0b1936;
+}
+
+/* removed ".header div ul/list-style-type: none" selector. Selector had not effect */
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+body {
+/* Moved to below header selectors */
+    background-color: #d9dcd6;
 }
 
 p {
@@ -89,73 +90,35 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
+/* benefit-lead, -brand & -cost have the same values but listed individually. I combined these */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
+/* benefit-lead, -brand & -cost h3 have the same values but listed individually. I combined these */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
+/* benefit-lead, -brand & -cost img have the same values but listed individually. I combined these */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
+/* search-engine-optimization, online-reputation-management & social-media-marketing have the same values but listed individually. I combined these */   
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -164,29 +127,17 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
+/* search-engine-optimization, online-reputation-management & social-media-marketing img have the same values but listed individually. I combined these */ 
     max-height: 200px;
 }
 
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
+/* search-engine-optimization, online-reputation-management & social-media-marketing h2 have the same values but listed individually. I combined these */ 
     margin-bottom: 20px;
     font-size: 36px;
 }
