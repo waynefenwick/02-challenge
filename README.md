@@ -97,6 +97,16 @@ You can also refer to this [YouTube video on enabling GitHub Pages](https://yout
 
 Be sure to add, commit, and push your work to see the most up-to-date version of your app!
 
+ACTION STEPS TAKEN
+     1. In the <body>/<div class=content>, the <id="search..."> value was not entered, resulting in the link not working. I added the <id="search..."> value and problem was resolved.
+
+     2. style.css/.benefits: I increased padding by 6px to make bottom of Lead Generation box align correctly with bottom of Social Media Marketing box.
+
+     3. No header section. Top menu scrolled up with the <body>. I added a <header> section and moved <class="header"> coding to this section. I then set the position to fixed so that the menu options remained in view on the screen. Width did not extend all the way accross. I added width to this style.css section and set it to 100%. A top part of T
+     the <body> is slightly hidden behind the <header>.
+
+     4.
+
 ## Grading Requirements
 
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
