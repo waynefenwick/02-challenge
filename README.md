@@ -83,7 +83,7 @@ Follow these instructions to create your project and deploy it to GitHub Pages:
 
 1. Create a new repository on your GitHub account and clone it to your computer. - done
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository. - done
 
 3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
 
@@ -96,6 +96,16 @@ You can also refer to this [YouTube video on enabling GitHub Pages](https://yout
 > **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
 
 Be sure to add, commit, and push your work to see the most up-to-date version of your app!
+
+ACTION STEPS TAKEN
+     1. In the <body>/<div class=content>, the <id="search..."> value was not entered, resulting in the link not working. I added the <id="search..."> value and problem was resolved.
+
+     2. style.css/.benefits: I increased padding by 6px to make bottom of Lead Generation box align correctly with bottom of Social Media Marketing box.
+
+     3. No header section. Top menu scrolled up with the <body>. I added a <header> section and moved <class="header"> coding to this section. I then set the position to fixed so that the menu options remained in view on the screen. Width did not extend all the way accross. I added width to this style.css section and set it to 100%. A top part of T
+     the <body> is slightly hidden behind the <header>.
+
+     4.
 
 ## Grading Requirements
 
