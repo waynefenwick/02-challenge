@@ -96,5 +96,8 @@ OTHER ACTION STEPS TAKEN
      <header> section and moved <class="header"> coding to this section.
      I then set the position to fixed so that the menu options remained
      in view on the screen. Width did not extend all the way accross.
-     I added width to this style.css section and set it to 100%. A top
-     part of the <body> is slightly hidden behind the <header>.
+     I added width to this style.css section and set it to 100%.
+          -- A top part of the <body> is slightly hidden behind the <header>.
+          -- When I add a top margin, it moves the Header down.
+          -- Result: when using links, they do not align the page exactly
+               right.
