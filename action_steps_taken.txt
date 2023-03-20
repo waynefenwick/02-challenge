@@ -101,3 +101,4 @@ OTHER ACTION STEPS TAKEN
           -- When I add a top margin, it moves the Header down.
           -- Result: when using links, they do not align the page exactly
                right.
+4. Note: Kept getting an error message asking me to merge branches.
