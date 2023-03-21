@@ -3,14 +3,12 @@
 ## A codebase that follows accessibility standards
 ## so that your own site is optimized for search engines
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-This project helped resolve a link issue as well as improve appearance and functionality. I learned more about CSS coding and how it works in relationship to HTML. I was also able to develop a short guide on steps necessary to push this project to GitHub.
+This project helped resolve a link issue as well as improve appearance and functionality. I learned more about CSS coding and how it works in relationship to HTML. I was also able, through my action steps of Git pull and push, to develop a short guide on steps necessary to efficently push projects to GitHub.
 
 ## Installation
 
     Step 1: Create a GitHub repo and clone it to your machine
-    Step 2: Copy the challenge folder to your cloned GitHub folder
+    Step 2: Copy the 02-challenge folder to your cloned GitHub folder
     Step 3: Make necessary edits to the HTML and CSS files
     Step 4: Be sure to save your changes regularly
     Step 5: Push changes to your Githib repo regularly
