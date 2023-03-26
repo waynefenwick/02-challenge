@@ -124,6 +124,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    scroll-margin-top: 100px;
 }
 
 .search-engine-optimization img,
